@@ -1,7 +1,7 @@
 function calcular()
 {
 	var talking = document.getElementById("hablando").value;
-	var weekday = parseInt(document.getElementById("hora").value);
+	var hora = parseInt(document.getElementById("hora").value);
 
 	var istalking = true;
 	var isnottalking = false;
