@@ -14,36 +14,27 @@
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
 				<h1 class="text-center">Parrot Trouble</h1>
-				<p>Completa el formulario y te diré si puedes hacerlo
-		<div class="row">
-			<div class="col-md-5 col-md-offset-2">
-				<div class="form-group">
-					<label for="">Ingrese  la hora</label>
-               <p>
-                <input type="text" id="n"> </p>
-					
-					
-					
-					
-					
-					
-				</div>
-				<div class="form-group">
-					<label for="hablando">¿Esta hablando el loro?</label>
-					<select class="form-control" id="hablando">
-						<option value="1">Si</option>
-						<option value="2">No</option>
-					</select>
-				</div>
-				<button onclick="calcular()" class="btn btn-primary">Evaluar</button>
-			</div>
-			<div class="col-md-3 text-center">
-				<div id="salida" style="font-size:50px;" >-</div>
-				<h4 class="text-info">Estamos en problemas?</h4>
+				<p>Completa el formulario</p> 
+                <div class="row">
+                    <div class="form-group">
+                        <label for="hablando">¿Esta hablando el loro?</label>
+                        <select class="form-control" id="talking">
+                            <option value="1">Si</option>
+                            <option value="2">No</option>
+                        </select>
+                    </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">hora:</label>
+                            <input type="email" class="form-control" id="hora" placeholder="0 - 23">
+                        </div>
+                        <button onclick="calcular()" class="btn btn-primary">Evaluar</button>
+                </div>
+                <div class="col-md-3 text-center">
+                        <div id="salida" style="font-size:50px;" >-</div>
+                        <h4 class="text-info">Estamos en problemas?</h4>
+                </div>
 	        </div>
-	    </div>
-    </div>
-    </div>
+        </div>
     </div>
 </body>
 <script src="main.js"></script>

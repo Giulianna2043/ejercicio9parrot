@@ -1,0 +1,9 @@
+.container
+{
+    background: pink;
+    border: 1px solid black;
+    border-radius: 5%;
+    margin-top: 10%;
+    font-family: 'Aref Ruqaa', serif;
+    width: 50%;
+} 
