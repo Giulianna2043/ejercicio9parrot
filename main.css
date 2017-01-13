@@ -1,0 +1,13 @@
+.container
+{
+    background: pink;
+    border: 1px solid pink;
+    border-radius: 5%;
+    width: 70%;
+    position: relative;
+    bottom: 10%;
+}
+body
+{
+    background: url(https://images2.alphacoders.com/567/thumb-1920-567980.jpg)   
+}
